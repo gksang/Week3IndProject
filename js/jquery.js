@@ -18,23 +18,24 @@ $(document).ready(function() {
 
 // //  ------JQUERY TO HANDLE  CLICK FUNCTIONALITY ON DESIGN SECTION DESCRIPTION----
 
-$('#des-icon').on('click', function(e)  {
+$('.des-icon').on('click', function() 
+ {
     $('.click-desc-des').fadeIn()
     $('#des-icon').css({"display": "none"});
     $('#des-icon-title').css({"display": "none"});
      
  });
  
- $('.click-desc-des').on('click', function(e)  {   
+ $('.click-desc-des').on('click', function()  {   
     $('.click-desc-des').css({"display": "none"});
-    $('#des-icon').fadeIn()
+    $('.des-icon').fadeIn()
     $('#des-icon-title').fadeIn()
      
  });
  
  // //  ------JQUERY TO HANDLE CLICK FUNCTIONALITY ON DEVELOPMENT SECTION DESCRIPTION----
  
- $('#dev-icon').on('click', function(e)  {
+ $('#dev-icon').on('click', function()  {
     $('.click-desc-dev').fadeIn()
     $('#dev-icon').css({"display": "none"});
     $('#dev-icon-title').css({"display": "none"});  
@@ -48,7 +49,7 @@ $('#des-icon').on('click', function(e)  {
      
  });
  
- // //  ------JQUERY TO HANDLE  CLICK FUNCTIONALITY ON PRODUCI MANAGEMENT SECTION DESCRIPTION----
+ // //  ------JQUERY TO HANDLE  CLICK FUNCTIONALITY ON PRODUCT MANAGEMENT SECTION DESCRIPTION----
  
  $('#prod-icon').on('click', function(e)  {
     $('.click-desc-prod').fadeIn()

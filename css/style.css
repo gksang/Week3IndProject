@@ -147,7 +147,7 @@
     flex-direction: column;
     display: none;
     border:5px;
-    padding:5px;   
+    padding:5px;
 }
 .click-desc-dev{
     color:black;       
@@ -157,7 +157,7 @@
     flex-direction: column;
     display: none;
     border:5px;
-    padding:5px;  
+    padding:5px;
 }
 .click-desc-prod{
     color:black;       
@@ -168,42 +168,48 @@
     display: none;
     border:5px;
     padding:5px; 
+  
 }
 .click-desc-dev h2{
     font-weight: bold;
     padding: 1px;
-    font-size: 20px
+    font-size: 24px
 }
 .click-desc-des h2{
     font-weight: bold;
     padding: 1px;
-    font-size: 20px 
+    font-size: 24px 
 } 
 .click-desc-prod h2{
     font-weight: bold;
     padding: 1px;
-    font-size: 20px;
+    font-size: 24px;
 }
 .click-desc-dev p{
     padding: 1px;
-    font-size: 12px;
-    font-weight: lighter;
-    text-align: center;
-    justify-content: center;    
-} 
-.click-desc-des p{
-    padding: 1px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: lighter;
     text-align: center;
     justify-content: center;
+
+    
+} 
+.click-desc-des p{
+    padding: 1px;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+  
+    
 } 
 .click-desc-prod p{
     padding: 1px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: lighter;
     text-align: center;
-    justify-content: center; 
+    justify-content: center;
+ 
 }
 
 /* ----PORTFOLIO SECTION--- */
