@@ -122,14 +122,21 @@
     .row{
         flex-direction: column;
     }
-    p{
+    .about{
         font-size: 12px;
-    /* }
+    }
+    .img-header p{
+        font-size: 12px;
+    }
+    .img-header h1{
+        font-size: 20px;
+    }
+  
     .services {
         font-size: 12px;
     }
     * h1 h2 h3 h4{
-        font-size: 20px; */
+        font-size: 20px; 
     }
 }
 .click-desc-des{
@@ -199,7 +206,7 @@
     justify-content: center; 
 }
 
-----PORTFOLIO SECTION---
+/* ----PORTFOLIO SECTION--- */
 .portfolio{
     text-align: center;
     justify-content: center;
