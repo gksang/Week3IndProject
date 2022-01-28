@@ -234,4 +234,43 @@
     opacity: 0;
 }
 
+/* ----CONTACT SECTION STYLING---- */
+.contact{
+    background-image: url("/assets/backgrounds/c_image.jpg");
+    display: flex;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    
+}
+::placeholder{
+    color: white;
+    opacity: 2;
+}
+#name {
+    background-color: transparent;
+    outline:none;
+    border-color: white;
+    border-style: solid; 
+    color: white;    
+}
+#email{
+    background-color: transparent;
+    outline:none;
+    border-color: white;
+    border-style: solid;
+    color: white; 
+} 
+#message {
+    background-color: transparent;
+    outline:none;
+    border-color: white;
+    border-style: solid; 
+    color: white;     
+}
+
 
