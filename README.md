@@ -22,5 +22,5 @@ CSS,HTML,Jquery and Javascript Coding and Styling language were used in this pro
 ## Support and contact details
 or any support,comments and observations you can reach me at : sangkipgil@gmail.com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+* MIT License Copyright (c) 2022 gksang **
 ### Copyright (c) 2022 **Gilbert Sang** 
