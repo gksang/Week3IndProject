@@ -44,7 +44,7 @@
     left:50%;
     text-align: center;
     transform: translate(-50%,-50%);
-    font-size: 12px;
+    font-size: 16px;
     /* //update value in media// */
 } 
 /* -----ABOUT SECTION STYLING---- */
@@ -88,7 +88,7 @@
     margin-right: 20%;
 }
 
-/* -----PORTFOLIO SECTION UPDATE------ */
+/* -----WHAT WE DO SECTION------ */
 
 .work {
     text-align: center;
@@ -122,15 +122,15 @@
     .row{
         flex-direction: column;
     }
-    /* * p{
+    p{
         font-size: 12px;
-    }
+    /* }
     .services {
         font-size: 12px;
     }
     * h1 h2 h3 h4{
-        font-size: 20px;
-    } */
+        font-size: 20px; */
+    }
 }
 .click-desc-des{
     color:black;       
@@ -197,6 +197,21 @@
     font-weight: lighter;
     text-align: center;
     justify-content: center; 
+}
+
+----PORTFOLIO SECTION---
+.portfolio{
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    width: 80%;
+    margin:auto   
+}
+.port-col{
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing: border-box;
+    position: relative;
 }
 
 
