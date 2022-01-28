@@ -44,7 +44,8 @@
     left:50%;
     text-align: center;
     transform: translate(-50%,-50%);
-    font-size: 14px;
+    font-size: 12px;
+    /* //update value in media// */
 } 
 /* -----ABOUT SECTION STYLING---- */
 
@@ -55,7 +56,7 @@
     margin-bottom: 2%;
     margin-left: 20%;
     margin-right: 20%;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 .about h1{
     text-align: center;
@@ -65,6 +66,28 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+
+/* ----- SERVICES SECTION STYLING--- */
+
+.services{
+    background-image: url("/assets/backgrounds/s_image.jpg");
+    display: flex;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    background-size: cover;
+    /* width: 100vw;
+    height: 100vh; */
+    color: white;
+}
+.services p{
+    padding: 2px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 
 
 
